@@ -6,6 +6,4 @@ updates:
     reviewers:
       - "nightconcept"
     schedule:
-      - interval: "weekly"
-        day: "sunday"
-        time: "16:00"
+      interval: "weekly"
