@@ -21,8 +21,6 @@ on:
   push:
     branches:
       - master
-  schedule:
-    - cron: $cron-weekly
 
 permissions:
   contents: read
