@@ -1,9 +1,12 @@
 version: 2
- updates:
+updates:
   - package-ecosystem: "mix"
-  directory: "/"
-  open-pull-requests-limit: 1
-  reviewers:
-  - "nightconcept"
-  schedule:
-  interval: "daily"
+    directory: "/"
+    open-pull-requests-limit: 1
+    reviewers:
+      - "nightconcept"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "16:00"
+    interval: "daily"
